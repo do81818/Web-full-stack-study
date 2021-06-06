@@ -9,7 +9,7 @@
   - **웹**은 인터넷 기반의 대표 서비스 중 하나
   - 물리적인 하나의 컴퓨터는 포트(Port) 값으로 구분된 여러 개의 서버가 동작 (HTTP는 기본적으로 80번 포트를 사용한다.)
 
-    ![Untitled](001-image\Untitled.png)
+    ![Untitled](001-image/Untitled.png)
 
     인터넷 기반의 여러 서비스들이 있다.
 
@@ -29,7 +29,7 @@
 - HTTP는 서버/클라이언트 모델을 따른다
   - 클라이언트가 먼저 서버에게 요청을 보내면 서버는 클라이언트에게 응답을 보낸다.
 
-![Untitled1](001-image\Untitled1.png)
+![Untitled1](001-image/Untitled1.png)
 
 ### 장점
 
@@ -53,11 +53,11 @@
 
 ## 2-3. Request (요청 데이터 포멧)
 
-![Untitled2](001-image\Untitled2.png)
+![Untitled2](001-image/Untitled2.png)
 
 ### HTTP Request Method
 
-![Untitled3](001-image\Untitled3.png)
+![Untitled3](001-image/Untitled3.png)
 
 **첫 번째 줄(요청 헤더)**
 
@@ -93,7 +93,7 @@
 
 ## 2-4. Response (응답)
 
-![Untitled4](001-image\Untitled4.png)
+![Untitled4](001-image/Untitled4.png)
 
 **첫 번째 줄(응답 헤더)**
 
@@ -114,25 +114,25 @@
 
 ### **100(정보) - 요청을 받았으며 프로세스를 계속한다.**
 
-![Untitled5](001-image\Untitled5.png)
+![Untitled5](001-image/Untitled5.png)
 
 ### 200(성공) - 요청을 성공적으로 받았으며 인식해서 처리했다.
 
-![Untitled6](001-image\Untitled6.png)
+![Untitled6](001-image/Untitled6.png)
 
 ### 300 (리다이렉션) - 요청 완료를 위해 추가 작업 조치가 필요하다.
 
-![Untitled7](001-image\Untitled7.png)
+![Untitled7](001-image/Untitled7.png)
 
 ### 400(클라이언트 에러) - 요청의 문법이 잘못되었거나 요청을 처리할 수 없다.
 
-![Untitled8](001-image\Untitled8.png)
+![Untitled8](001-image/Untitled8.png)
 
-![Untitled9](001-image\Untitled9.png)
+![Untitled9](001-image/Untitled9.png)
 
 ### 500(서버 에러) - 서버가 명백히 유효한 요청에 대해 충족을 실패했다.
 
-![Untitled10](001-image\Untitled10.png)
+![Untitled10](001-image/Untitled10.png)
 
 # 3. HTTPS (HyperText Transfer Protocol Secure)
 
@@ -148,7 +148,7 @@
       - 개인키로 암호화하면 공개키로 복호화 할 수 있다.
       - 공개키는 모두에게 공개되어 있으므로, 내가 인증한 정보임을 알려 신뢰성 보장
 
-![Untitled11](001-image\Untitled11.png)
+![Untitled11](001-image/Untitled11.png)
 
 - HTTP → 보안 취약, HTTPS 보다 상대적으로 속도 빠름
 - HTTPS → 보안 안전, HTTP 보다 상대적으로 속도 느림, HTTPS 인증서 발급 및 유지를 위한 추가 비용 발생
